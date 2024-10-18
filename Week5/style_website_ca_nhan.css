@@ -1,0 +1,60 @@
+header, footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color:yellow;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+nav#topmenu ul {
+    list-style: none;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav#topmenu li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+nav#topmenu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+}
+
+.aside {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.section {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}

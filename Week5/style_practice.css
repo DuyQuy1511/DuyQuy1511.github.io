@@ -1,0 +1,40 @@
+nav#topmenu ul {
+    list-style: none;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav#topmenu li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+nav#topmenu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+}
+
+#topheader p {
+    font-style: italic;
+}
+
+article header p {
+    font-style: italic;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 100%
+}
