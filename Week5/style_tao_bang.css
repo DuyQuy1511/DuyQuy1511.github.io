@@ -1,0 +1,18 @@
+table {
+    border: #444 3px solid black;
+    background-color: rgb(9, 240, 240);
+    width: 60%;
+    margin: auto ;
+    margin-top: 50px; /* Tạo khoảng cách 50px với lề trên */
+}
+
+table thead tr {
+    font-weight: bold ;
+    text-align: center; 
+
+}
+
+table tfoot {
+    text-align: right;
+    
+}
