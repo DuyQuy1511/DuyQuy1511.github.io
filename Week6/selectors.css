@@ -1,0 +1,70 @@
+
+/* span#id1 {
+    color: red;
+}
+
+.highlight {
+    background-color: yellow;
+    color: blue;
+} */
+
+#id2 {
+    color: green;
+}
+
+span + p {
+    font-style: italic;
+    font-weight: bold;
+}    /* style thẻ p after span */
+
+/* div.items >a {
+    color: green;
+    font-weight: bold;
+} dấu > để chỉ đến thẻ a con trực tiếp của div class items */
+
+.red {
+    color: red;
+}
+/* .underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: yellow;
+    color: blue;
+} */
+
+p[title] {
+    color: green;
+}
+
+p[title="test"] {
+    color: orange;
+
+}
+
+.hoverClass:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
+
+a:link {
+    color: brown;
+}
+
+ul:active {
+    background-color: yellow;
+}
