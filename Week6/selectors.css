@@ -52,6 +52,10 @@ p[title="test"] {
     text-decoration: underline;
 }
 
+a:link {
+    color: brown;
+}
+
 a:hover {
     color: green;
     text-decoration: underline;
@@ -59,10 +63,6 @@ a:hover {
 
 a:visited {
     color: red;
-}
-
-a:link {
-    color: brown;
 }
 
 ul:active {
