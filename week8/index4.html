@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Demo</title>
+    <script src = "script.js"></script>
+</head>
+<body>
+    <h1>JavaScript Demo</h1>
+    <input type="text" id="a_value" onkeydown=calculate()>
+    <p id="result"></p>
+    <button onclick="Calculate">Calculate</button>
+    <button onclick="reset">Reset</button>
+    <script>
+        function calculate() {
+            var a = document.getElementById("a_value").value;
+            var result = parseInt(a) * 2;
+            alert(result);
+        }
+
+        function reset() {
+            var confirm_reset = confirm("Are u sure u want to reset?");
+            if (confirm_reset == True) {
+                document.getElementById("a_value").value="";
+            }
+        }
+    </script>
+    
+</body>
+</html>
+

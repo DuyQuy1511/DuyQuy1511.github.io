@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Demo</title>
+</head>
+<body>
+    <h1>Javascript Demo</h1>
+    <p id="demo">This is a paragraph</p>
+    <button type="button" onclick=ChangeText()>Change the Text</button>
+    <!-- <script>
+        console.log("Hello, Javascript!")
+    </script> -->
+    <script>
+        function ChangeText() {
+            console.log("Button clicked!")
+            // dùng để tương tác trên console khi inspect web
+            document.getElementById("demo").innerHTML = "Hello, Javascript!"
+            // lấy đội tượng dựa vào id và innerHTML là đè vào giá trị ban đầu
+            }
+    </script>
+</body>
+</html>
