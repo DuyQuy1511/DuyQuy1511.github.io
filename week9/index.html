@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate 2 numbers</title>
+    <link rel="stylesheet" href="style_index.css">
+
+</head>
+<body>
+    <div class="box">
+        <h2>Tính toán cùng bé</h2>
+        <input type="text" id="number1" placeholder="Enter first number">
+        <input type="text" id="number2" placeholder="Enter second number">
+        <br>
+        <button type="button" onclick="calculate('+')">+</button>
+        <button type="button" onclick="calculate('-')">-</button>
+        <button type="button" onclick="calculate('*')">*</button>
+        <button type="button" onclick="calculate('/')">:</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function calculate(operation) {
+            var num1 = document.getElementById("number1").value;
+            var num2 = document.getElementById("number2").value;
+            var result = document.getElementById("result");
+     
+            if (num1 == "" || num2 == "") {
+                result.textContent = "Inputs cannot be empty.";
+                return;
+            }
+
+            var n1 = parseFloat(num1);
+            var n2 = parseFloat(num2);
+
+            switch (operation) {
+                case '+':
+                    result = n1 + n2;
+                    break;
+                case '-':
+                    result = n1 - n2;
+                    break;
+                case '*':
+                    result = n1 * n2;
+                    break;
+                case '/':
+                    if (n2 === 0) {
+                        result.textContent = "Cannot divide by 0.";
+                        return;
+                    }
+                    result = n1 / n2;
+                    break;
+            }
+
+            document.getElementById("result").innerHTML = "Result: " + result;
+        }
+    </script>
+</body>
+</html>
