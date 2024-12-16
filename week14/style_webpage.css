@@ -1,0 +1,167 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2ff; /* Deeper light blue */
+            color: #333;
+        }
+        header {
+            background-color: #3a79a8; 
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        nav {
+            background-color: #6daedf; 
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        nav a:hover {
+            background-color: #3a79a8; 
+            color: white;
+        }
+        section {
+            padding: 2rem;
+            background-color: #fefefe; 
+            margin: 1rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        section h2 {
+            color: #3a79a8; 
+            border-bottom: 2px solid #e9c228; 
+            padding-bottom: 0.5rem;
+        }
+        .sports, .music, .hobby-highlights {
+            margin-bottom: 2rem;
+        }
+    
+        #hobby-highlights {
+            padding: 2rem;
+            background-color: #fefefe;
+            margin: 1rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        #hobby-highlights h2 {
+            color: #3a79a8;
+            border-bottom: 2px solid #f6e49c;
+            padding-bottom: 0.5rem;
+        }
+        #hobby-highlights p {
+            font-size: 1.1rem;
+            color: whote;
+            margin-bottom: 1.5rem;
+        }
+        .highlight-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .highlight-item {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .highlight-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.3s ease;
+        }
+        .highlight-item:hover {
+            transform: scale(1.05);
+        }
+        .highlight-description {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .highlight-item:hover .highlight-description {
+            opacity: 1;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 2px solid #f6e49c; /* Soft yellow */
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+    
+        form button {
+            background-color: #3a79a8; /* Slightly darker blue */
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        form button:hover {
+            background-color: #6daedf; /* Sky blue */
+        }
+
+        .social-link {
+            display: flex; 
+            align-items: center;
+        }
+          
+        .facebook-icon {
+            width: 20px; 
+            height: 20px;
+            margin-left: 4px;
+        }
+        .social-link2 {
+            display: flex; 
+            align-items: center;
+        }
+          
+        .gmail-icon {
+            width: 25px; 
+            height: 30px;
+            margin-right: 5px;
+        }
+
+        .social-link a:hover {
+            background-color: #3a79a8; 
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #3a79a8; /* Slightly darker blue */
+            color: white;
+            font-size: 0.9rem;
+            margin-top: auto;
+        }
+    
